@@ -34,6 +34,7 @@ a, a:hover {
     width: 100%;
     max-width: 960px;
     margin: 0 auto;
+
 }
 
 .mb30 {
@@ -42,4 +43,22 @@ a, a:hover {
 
 .mt30 {
     margin-top: 30px;
+}
+
+.header-content-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar {
+    display: flex;
+}
+
+.menu-item {
+    margin-left: 20px;
+}
+
+.menu-active {
+    font-weight: 700;
 }
